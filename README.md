@@ -21,10 +21,13 @@ IP range: 10.2.0.0 - 10.2.7.255
 
 ### From source
 
+```
 git clone https://github.com/sajankgit/IPR-GO.git
 cd IPR-GO
 go build
 mv IPR-GO /usr/local/bin/ipr
+```
+
 
 ## Usage
 `ipr ip/cidr`
